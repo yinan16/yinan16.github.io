@@ -176,19 +176,20 @@ a:hover {
   gap: 40px;
 }
 
-.profile-img {
+.profile-frame {
   width: 180px;
-  max-width: 180px;
   height: 180px;
   border-radius: 50%;
-  object-fit: cover;
+  overflow: hidden;
   border: 3px solid rgba(255,255,255,0.3);
   flex-shrink: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.profile-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .hero-text {
@@ -723,7 +724,7 @@ footer {
     text-align: center;
   }
 
-  .profile-img {
+  .profile-frame {
     width: 140px;
     height: 140px;
   }
