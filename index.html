@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yinan Yu — Assistant Professor, Chalmers University of Technology</title>
+  <meta name="description" content="Yinan Yu is an Assistant Professor at Chalmers University of Technology, Technical Fellow at Sahlgrenska University Hospital, and leads AIXLab, her research lab at Chalmers. Research in usable AI, healthcare AI, and multimodal deep learning.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">Yinan Yu</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero" class="section hero">
+    <div class="container">
+      <h1>Yinan Yu</h1>
+      <div class="hero-roles">
+        <div class="role-card">
+          <span class="role-title">Assistant Professor</span>
+          <span class="role-org">Computer Science and Engineering, Chalmers University of Technology</span>
+        </div>
+        <div class="role-card">
+          <span class="role-title">Technical Fellow (Research Leader)</span>
+          <span class="role-org">Center for Digital Health, Sahlgrenska University Hospital</span>
+        </div>
+        <div class="role-card">
+          <span class="role-title">Leading <a href="https://usableai.se" target="_blank" rel="noopener">AIXLab@Chalmers</a></span>
+          <span class="role-org">Research lab at Chalmers developing and validating ML/AI for real-world problems</span>
+        </div>
+        <div class="role-card">
+          <span class="role-title">Co-founder</span>
+          <span class="role-org"><a href="https://www.asymptotic.ai/" target="_blank" rel="noopener">Asymptotic AI</a> (consultancy for AI projects)</span>
+        </div>
+        <div class="role-card">
+          <span class="role-title">Co-founder</span>
+          <span class="role-org"><a href="https://lumilogic.se/" target="_blank" rel="noopener">Lumilogic AB</a> (sustainable finance and sustainability reporting service)</span>
+        </div>
+      </div>
+      <!-- <div class="hero-links"> -->
+      <!--   <a href="mailto:yinan@chalmers.se">Email</a> -->
+      <!--   <a href="https://github.com/yinan16" target="_blank" rel="noopener">GitHub</a> -->
+      <!--   <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank" rel="noopener">Google Scholar</a> -->
+      <!--   <a href="https://www.chalmers.se/en/persons/yinan/" target="_blank" rel="noopener">Chalmers</a> -->
+      <!--   <a href="https://usableai.se" target="_blank" rel="noopener">AIXLab</a> -->
+      <!-- </div> -->
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p class="about-block" data-tooltip="Background">
+        I am an Assistant Professor in Computing Science at Chalmers University of Technology and a Technical Fellow (Research Leader) at the Center for Digital Health, Sahlgrenska University Hospital. I lead <a href="https://usableai.se" target="_blank" rel="noopener">AIXLab@Chalmers</a>, a research lab that develops and validates ML/AI solutions on real-world problems. I am also a co-founder of <a href="https://www.asymptotic.ai/" target="_blank" rel="noopener"><strong>Asymptotic AI</strong></a> (consultancy for AI projects) and <a href="https://lumilogic.se/" target="_blank" rel="noopener"><strong>Lumilogic AB</strong></a> (sustainable finance and sustainability reporting service).
+      </p>
+      <p class="about-block" data-tooltip="Research">
+        My research focuses on building AI systems that integrate domain knowledge and are truly usable. I work across domains including healthcare, automotive, finance, transport, and sustainable construction.
+      </p>
+      <p class="about-block" data-tooltip="Students">
+        I am looking for students who are curious, enjoy working with code and data, and care more about aligning their mental models with facts rather than "being right". I value people who are driven to deliver results and who treat others with equal respect. If that sounds like you, I would love to hear from you.
+      </p>
+      <p class="about-block" data-tooltip="Collaboration">
+        I am hands-on and passionate about solving real problems. I value direct and clear communication. I care about inclusivity and equity. I like to challenge assumptions and test ideas on real data rather than stick with convention. I prefer straightforward collaboration where we set concrete goals and support each other along the way. If that resonates with you, I am always open to new collaborations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div id="projects-container"></div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Recent Publications</h2>
+      <div class="pub-filters" id="pub-filters">
+        <button class="pub-filter-btn active" data-type="all">All</button>
+        <button class="pub-filter-btn" data-type="journal">Journal</button>
+        <button class="pub-filter-btn" data-type="conference">Conference</button>
+        <button class="pub-filter-btn" data-type="preprint">Preprint</button>
+        <!-- <button class="pub-filter-btn" data-type="book-chapter">Book Chapter</button> -->
+      </div>
+      <div class="pub-filters" id="pub-topic-filters"></div>
+      <div class="pub-filters" id="pub-domain-filters"></div>
+      <div class="pub-controls">
+        <input type="text" id="pub-search" placeholder="Filter publications..." aria-label="Filter publications">
+      </div>
+      <div id="pub-list"></div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:yinan@chalmers.se">yinan@chalmers.se</a></li>
+        <li><strong>Office:</strong> Department of Computer Science and Engineering, Chalmers University of Technology, Gothenburg, Sweden</li>
+        <li><strong>Chalmers:</strong> <a href="https://www.chalmers.se/en/persons/yinan/" target="_blank" rel="noopener">chalmers.se/en/persons/yinan</a></li>
+        <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?hl=en&user=z3p7ALcAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Profile</a></li>
+        <!-- <li><strong>GitHub:</strong> <a href="https://github.com/yinan16" target="_blank" rel="noopener">github.com/yinan16</a></li> -->
+        <li><strong>AIXLab:</strong> <a href="https://usableai.se" target="_blank" rel="noopener">usableai.se</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Yinan Yu</p>
+    </div>
+  </footer>
+
+  <script src="js/publications.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
