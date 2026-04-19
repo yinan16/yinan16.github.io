@@ -88,7 +88,7 @@ const publications = [
   },
   {
     year: 2026,
-    title: "A practical guide to the implementation of AI in orthopaedic research part 8: Resource management checklist for AI-driven research projects in orthopaedics",
+    title: "A practical guide to the implementation of AI in orthopaedic research — Part 8: Resource management checklist for AI-driven research projects in orthopaedics",
     authors: "Umile Giuseppe Longo, Benedetta Bandini, Maristella Saccomanno, Pieter D'Hooghe, Bálint Zsidai, Jacob F. Oeding, Felix Conrad Oettl, Kristian Samuelsson, Alessandro De Sire, Robert Feldt, Yinan Yu",
     venue: "Journal of Experimental Orthopaedics",
     volume: "13",
@@ -121,7 +121,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2511.00067",
     type: "conference",
-    tags: ["Multimodal Learning", "Computer Vision", "Multimodal Situation Awareness"],
+    tags: ["Multimodal Learning", "Computer Vision", "Situation Awareness"],
     domain: []
   },
   {
@@ -273,7 +273,7 @@ const publications = [
     pages: null,
     doi: "10.1093/eurheartj/ehaf784.4400",
     type: "conference",
-    tags: ["ML/DL"],
+    tags: ["ML/DL", "Time Series"],
     domain: ["Medicine"]
   },
   {
@@ -336,7 +336,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2507.17722",
     type: "conference",
-    tags: ["Multimodal Learning", "Multimodal Situation Awareness"],
+    tags: ["Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -386,7 +386,7 @@ const publications = [
     pages: null,
     doi: "10.48550/arXiv.2511.16839",
     type: "preprint",
-    tags: ["ML/DL"],
+    tags: ["ML/DL", "Time Series"],
     domain: ["Medicine"]
   },
   {
@@ -398,7 +398,7 @@ const publications = [
     pages: null,
     doi: "10.48550/arXiv.2511.15522",
     type: "preprint",
-    tags: ["ML/DL"],
+    tags: ["ML/DL", "Time Series"],
     domain: ["Automotive"]
   },
 
@@ -474,7 +474,7 @@ const publications = [
     pages: "114-130",
     doi: "10.1007/978-3-031-80889-0_8",
     type: "conference",
-    tags: ["LLMs", "Multimodal Situation Awareness"],
+    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -511,7 +511,7 @@ const publications = [
     pages: "431-438",
     doi: "10.1109/ITSC58415.2024.10920027",
     type: "conference",
-    tags: ["LLMs", "Multimodal Situation Awareness"],
+    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -524,7 +524,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2408.10794",
     type: "conference",
-    tags: ["LLMs", "Multimodal Situation Awareness"],
+    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
 
