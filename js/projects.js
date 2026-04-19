@@ -3,7 +3,7 @@ const projects = [
   // === Multimodal Situation Awareness ===
   {
     title: "NaviGateAI: An Interoperable Digital Twin Decision Support Platform for Emergency Response and Situational Awareness",
-    years: "2026–2026",
+    years: "2026–2028",
     funder: "VINNOVA",
     status: "active",
     role: "pi",
