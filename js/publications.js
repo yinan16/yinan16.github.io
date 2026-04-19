@@ -4,6 +4,54 @@ const publications = [
   // --- Journals ---
   {
     year: 2026,
+    title: "Evaluation of Global Data for National-Scale Soil Depth Mapping in Data-Scarce Regions: A Case Study from Sri Lanka",
+    authors: "Ebrahim Jahanshiri, Eranga M. Wimalasiri, Yinan Yu, Ranjith B. Mapa",
+    venue: "Soil Systems",
+    volume: "10(4)",
+    pages: "47",
+    doi: null,
+    type: "journal",
+    tags: ["ML/DL", "Sustainability"],
+    domain: []
+  },
+  {
+    year: 2026,
+    title: "Standardised Transparent Orthopaedic Reporting and Modelling for AI (STORM-AI) — Guidelines for reporting artificial intelligence studies in orthopaedics from the ESSKA AI Working Group",
+    authors: "Felix C. Oettl, Bálint Zsidai, Yinan Yu, James Pruneski, Thomas Tischer, Ayoosh Pareek, Alberto Grassi, Stefano Zaffagnini, Michael T. Hirschmann, Kristian Samuelsson, ESSKA Artificial Intelligence Working Group",
+    venue: "Journal of Experimental Orthopaedics",
+    volume: "13(2)",
+    pages: "e70702",
+    doi: null,
+    type: "journal",
+    tags: ["ML/DL"],
+    domain: ["Medicine"]
+  },
+  {
+    year: 2026,
+    title: "From de-skilling to up-skilling: How artificial intelligence will augment the modern physician",
+    authors: "Felix C. Oettl, James Pruneski, Bálint Zsidai, Yinan Yu, David Fendrich, Thomas Tischer, Michael T. Hirschmann, Stefano Zaffagnini, Kristian Samuelsson, ESSKA Artificial Intelligence Working Group",
+    venue: "Journal of Experimental Orthopaedics",
+    volume: "13(1)",
+    pages: "e70677",
+    doi: null,
+    type: "journal",
+    tags: ["LLMs"],
+    domain: ["Medicine"]
+  },
+  {
+    year: 2026,
+    title: "Recognizing as-built building materials: a systematic mapping study",
+    authors: "Josie Harrison, Yinan Yu, Alexander Hollberg",
+    venue: "Expert Systems with Applications",
+    volume: null,
+    pages: "132376",
+    doi: null,
+    type: "journal",
+    tags: ["Computer Vision", "ML/DL"],
+    domain: ["Building & Construction"]
+  },
+  {
+    year: 2026,
     title: "Is orthopaedics entering the age of generative AI? — A narrative review of current applications, challenges, and future directions",
     authors: "Felix C. Oettl, James A. Pruneski, Bálint Zsidai, Yinan Yu, Ting Cong, Thomas Tischer, Michael T. Hirschmann, Kristian Samuelsson",
     venue: "Knee Surgery, Sports Traumatology, Arthroscopy",
@@ -73,7 +121,71 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2511.00067",
     type: "conference",
-    tags: ["Multimodal Learning", "Computer Vision"],
+    tags: ["Multimodal Learning", "Computer Vision", "Multimodal Situation Awareness"],
+    domain: []
+  },
+  {
+    year: 2026,
+    title: "KG-Hopper: Empowering Compact Open LLMs with Knowledge Graph Reasoning via Reinforcement Learning",
+    authors: "Shuai Wang, Yinan Yu",
+    venue: "International Joint Conference on Neural Networks (IJCNN 2026)",
+    volume: null,
+    pages: null,
+    doi: null,
+    url: "https://arxiv.org/abs/2603.21440",
+    type: "conference",
+    tags: ["LLMs", "NLP", "Knowledge Graphs"],
+    domain: []
+  },
+  {
+    year: 2026,
+    title: "DomAgent: Leveraging Knowledge Graphs and Case-Based Reasoning for Domain-Specific Code Generation",
+    authors: "Shuai Wang, Dhasarathy Parthasarathy, Robert Feldt, Yinan Yu",
+    venue: "The 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)",
+    volume: null,
+    pages: null,
+    doi: null,
+    url: "https://arxiv.org/abs/2603.21430",
+    type: "conference",
+    tags: ["LLMs", "Software Engineering", "Knowledge Graphs"],
+    domain: []
+  },
+  {
+    year: 2026,
+    title: "LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study",
+    authors: "Shuai Wang, Yinan Yu, Earl T. Barr, Dhasarathy Parthasarathy",
+    venue: "The 34th ACM International Conference on the Foundations of Software Engineering (FSE 2026)",
+    volume: null,
+    pages: null,
+    doi: null,
+    url: "https://arxiv.org/abs/2603.21439",
+    type: "conference",
+    tags: ["LLMs", "Software Engineering"],
+    domain: ["Automotive"]
+  },
+  // --- Preprints ---
+  {
+    year: 2026,
+    title: "Topology-Aware Reasoning over Incomplete Knowledge Graph with Graph-Based Soft Prompting",
+    authors: "Shuai Wang, Xixi Wang, Yinan Yu",
+    venue: "arXiv preprint",
+    volume: "abs/2604.12503",
+    pages: null,
+    doi: "10.48550/arXiv.2604.12503",
+    type: "preprint",
+    tags: ["NLP", "LLMs", "Knowledge Graphs"],
+    domain: []
+  },
+  {
+    year: 2026,
+    title: "KG-Reasoner: A Reinforced Model for End-to-End Multi-Hop Knowledge Graph Reasoning",
+    authors: "Shuai Wang, Yinan Yu",
+    venue: "arXiv preprint",
+    volume: "abs/2604.12487",
+    pages: null,
+    doi: "10.48550/arXiv.2604.12487",
+    type: "preprint",
+    tags: ["NLP", "LLMs", "Knowledge Graphs"],
     domain: []
   },
 
@@ -211,7 +323,7 @@ const publications = [
     doi: "10.18653/v1/2025.acl-long.760",
     url: "https://aclanthology.org/2025.acl-long.760/",
     type: "conference",
-    tags: ["NLP", "LLMs"],
+    tags: ["NLP", "LLMs", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -224,7 +336,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2507.17722",
     type: "conference",
-    tags: ["Multimodal Learning"],
+    tags: ["Multimodal Learning", "Multimodal Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -362,7 +474,7 @@ const publications = [
     pages: "114-130",
     doi: "10.1007/978-3-031-80889-0_8",
     type: "conference",
-    tags: ["LLMs"],
+    tags: ["LLMs", "Multimodal Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -399,7 +511,7 @@ const publications = [
     pages: "431-438",
     doi: "10.1109/ITSC58415.2024.10920027",
     type: "conference",
-    tags: ["LLMs"],
+    tags: ["LLMs", "Multimodal Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -412,7 +524,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2408.10794",
     type: "conference",
-    tags: ["LLMs"],
+    tags: ["LLMs", "Multimodal Situation Awareness"],
     domain: ["Automotive"]
   },
 

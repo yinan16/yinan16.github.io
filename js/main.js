@@ -91,6 +91,11 @@ function renderProjects() {
         tags.push(`<span class="project-tag project-tag--${escapeHTML(p.role)}">${escapeHTML(roleLabel)}</span>`);
       }
 
+      // Hiring tag
+      if (p.hiring) {
+        tags.push('<span class="project-tag project-tag--hiring">Hiring</span>');
+      }
+
       card.innerHTML = `
         <h4>${escapeHTML(p.title)}</h4>
         <div class="project-meta">

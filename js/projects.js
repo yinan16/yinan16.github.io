@@ -1,23 +1,24 @@
 // Research projects data
 const projects = [
-  // === AI/DL/ML ===
+  // === Multimodal Situation Awareness ===
+  {
+    title: "NaviGateAI: An Interoperable Digital Twin Decision Support Platform for Emergency Response and Situational Awareness",
+    years: "2026–2026",
+    funder: "VINNOVA",
+    status: "active",
+    role: "pi",
+    hiring: true,
+    domain: "Multimodal Situation Awareness",
+    description: "Building an interoperable digital twin decision support platform for emergency response and situational awareness."
+  },
   {
     title: "Spatial Reasoning of Vision Language Models",
     years: "2025–2030",
     funder: "",
     status: "active",
     role: "pi",
-    domain: "AI/DL/ML",
+    domain: "Multimodal Situation Awareness",
     description: "Investigating and improving spatial reasoning capabilities in vision language models."
-  },
-  {
-    title: "Rule-Guided Reasoning and Decision Support",
-    years: "2026–2026",
-    funder: "VINNOVA",
-    status: "active",
-    role: "pi",
-    domain: "AI/DL/ML",
-    description: "Developing rule-guided reasoning methods for AI-powered decision support systems."
   },
 
   // === Healthcare & Medicine ===

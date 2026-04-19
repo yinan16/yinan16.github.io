@@ -440,6 +440,12 @@ a:hover {
   color: #6b7280;
 }
 
+.project-tag--hiring {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
+
 .project-desc {
   font-size: 0.85rem;
   color: var(--text-light);
