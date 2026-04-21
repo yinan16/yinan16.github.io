@@ -36,18 +36,9 @@ const projects = [
     years: "2024–2027",
     funder: "VINNOVA",
     status: "active",
-    role: "pi",
-    domain: "Healthcare & Medicine",
-    description: "Using AI-driven telemonitoring to advance heart failure management and improve patient outcomes."
-  },
-  {
-    title: "AI-Driven Telemonitoring in Specialized Home Care Setting",
-    years: "2024–2027",
-    funder: "VINNOVA",
-    status: "active",
     role: "chalmers-pi",
     domain: "Healthcare & Medicine",
-    description: "Applying AI-driven telemonitoring within specialized home care settings for heart failure patients."
+    description: "Using AI-driven telemonitoring to advance heart failure management and improve patient outcomes."
   },
   {
     title: "Towards Radar-Based Gait Analysis for the Elderly Using Machine Learning",
