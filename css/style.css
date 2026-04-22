@@ -446,6 +446,15 @@ a:hover {
   border: 1px solid #f59e0b;
 }
 
+a.project-tag--hiring {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.project-tag--hiring:hover {
+  background: #fde68a;
+}
+
 .project-desc {
   font-size: 0.85rem;
   color: var(--text-light);

@@ -93,7 +93,11 @@ function renderProjects() {
 
       // Hiring tag
       if (p.hiring) {
-        tags.push('<span class="project-tag project-tag--hiring">Hiring</span>');
+        if (p.ad_url) {
+          tags.push(`<a class="project-tag project-tag--hiring" href="${escapeHTML(p.ad_url)}" target="_blank" rel="noopener">Hiring</a>`);
+        } else {
+          tags.push('<span class="project-tag project-tag--hiring">Hiring</span>');
+        }
       }
 
       card.innerHTML = `

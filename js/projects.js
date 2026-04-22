@@ -8,6 +8,7 @@ const projects = [
     status: "active",
     role: "pi",
     hiring: true,
+    ad_url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14772",
     domain: "Multimodal Situation Awareness",
     description: "Building an interoperable digital twin decision support platform for emergency response and situational awareness."
   },
