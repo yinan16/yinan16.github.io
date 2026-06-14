@@ -7,8 +7,6 @@ const projects = [
     funder: "VINNOVA",
     status: "active",
     role: "pi",
-    hiring: true,
-    ad_url: "https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=p14772",
     domain: "Multimodal Situation Awareness",
     description: "Building an interoperable digital twin decision support platform for emergency response and situational awareness."
   },
@@ -33,22 +31,13 @@ const projects = [
     description: "Building LLM-powered multimodal systems for human-centric decision-making in safety-critical domains such as healthcare."
   },
   {
-    title: "Advancing Heart Failure Management through AI-Driven Telemonitoring",
+    title: "AIcares: Advancing Heart Failure Management through AI-Driven Telemonitoring in Specialized Home Care Setting",
     years: "2024–2027",
     funder: "VINNOVA",
     status: "active",
     role: "chalmers-pi",
     domain: "Healthcare & Medicine",
     description: "Using AI-driven telemonitoring to advance heart failure management and improve patient outcomes."
-  },
-  {
-    title: "Towards Radar-Based Gait Analysis for the Elderly Using Machine Learning",
-    years: "2023–2024",
-    funder: "Area of Advance ICT",
-    status: "completed",
-    role: "participating",
-    domain: "Healthcare & Medicine",
-    description: "Exploring radar-based approaches combined with machine learning for gait analysis in elderly populations."
   },
 
   // === Automotive ===
@@ -74,10 +63,20 @@ const projects = [
     title: "AutoLang: LLM Adaptation for Automotive Software Engineering",
     years: "2024–2026",
     funder: "CHAIR",
-    status: "active",
+    status: "completed",
     role: "pi",
     domain: "Automotive",
     description: "Adapting large language models for automotive software engineering tasks and workflows."
+  },
+  {
+    title: "Agentic AI for Automated Research",
+    years: "2026–2029",
+    funder: "VINNOVA",
+    status: "active",
+    role: "chalmers-pi",
+    hiring: true,
+    domain: "Automotive",
+    description: "Using agentic AI systems to automate the research process, with target applications in deep learning design for robotic perception systems and system-level code generation."
   },
 
   // === Transport & Infrastructure ===
@@ -97,13 +96,13 @@ const projects = [
     status: "active",
     role: "chalmers-pi",
     domain: "Transport & Infrastructure",
-    description: "Demonstrating AI-powered systems for intelligent pavement maintenance and infrastructure management."
+    description: "Evaluating AI models for pavement maintenance without ground-truth labels."
   },
   {
     title: "InfraHelper: Enhancing Digital Twins and Universal Design with Multimodal Data",
     years: "2025",
     funder: "City of Gothenburg",
-    status: "active",
+    status: "completed",
     role: "pi",
     domain: "Transport & Infrastructure",
     description: "Human-centered road analysis for digital twin modeling and universal design, enriching infrastructure digital twins through multimodal data collection."

@@ -1,1 +1,11 @@
+# Node
 node_modules/
+
+# Editor / OS / NAS cruft
+.DS_Store
+Thumbs.db
+@eaDir/
+*.swp
+*~
+.idea/
+.vscode/

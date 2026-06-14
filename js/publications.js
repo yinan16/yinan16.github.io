@@ -188,6 +188,19 @@ const publications = [
     tags: ["NLP", "LLMs", "Knowledge Graphs"],
     domain: []
   },
+  {
+    year: 2026,
+    title: "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics",
+    authors: "Arsham Gholamzadeh Khoee, Shuai Wang, Robert Feldt, Dhasarathy Parthasarathy, Yinan Yu",
+    venue: "Journal of Systems and Software",
+    volume: "240",
+    pages: "112961",
+    doi: "10.1016/j.jss.2026.112961",
+    url: "https://www.sciencedirect.com/science/article/pii/S0164121226001949",
+    type: "journal",
+    tags: ["LLMs", "Software Engineering"],
+    domain: ["Automotive"]
+  },
 
   // === 2025 ===
   // --- Journals ---
@@ -346,25 +359,13 @@ const publications = [
     venue: "1st SCOPE Workshop at the 13th International Conference on Learning Representations (ICLR 2025)",
     volume: null,
     pages: null,
-    doi: null,
+    doi: "10.48550/arXiv.2603.28555",
     url: "https://openreview.net/forum?id=SODTFGcNfp",
     type: "conference",
     tags: ["Multimodal Learning", "Computer Vision"],
     domain: []
   },
   // --- Preprints ---
-  {
-    year: 2025,
-    title: "GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics",
-    authors: "Arsham Gholamzadeh Khoee, Shuai Wang, Yinan Yu, Robert Feldt, Dhasarathy Parthasarathy",
-    venue: "arXiv preprint",
-    volume: "abs/2503.21735",
-    pages: null,
-    doi: "10.48550/arXiv.2503.21735",
-    type: "preprint",
-    tags: ["LLMs", "Software Engineering"],
-    domain: ["Automotive"]
-  },
   {
     year: 2025,
     title: "Cost-Aware Prediction (CAP): An LLM-Enhanced Machine Learning Pipeline and Decision Support System for Heart Failure Mortality Prediction",
@@ -379,7 +380,7 @@ const publications = [
   },
   {
     year: 2025,
-    title: "Analysis of heart failure patient trajectories using sequence modeling",
+    title: "Predicting one-year clinical instability and mortality in heart failure patients using sequence modeling",
     authors: "Falk Dippel, Yinan Yu, Annika Rosengren, Martin Lindgren, Christina E. Lundberg, Erik Aerts, Martin Adiels, Helen Sjöland",
     venue: "arXiv preprint",
     volume: "abs/2511.16839",
