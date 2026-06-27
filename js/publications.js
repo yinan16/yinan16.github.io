@@ -35,7 +35,7 @@ const publications = [
     pages: "e70677",
     doi: null,
     type: "journal",
-    tags: ["LLMs"],
+    tags: ["LLM"],
     domain: ["Medicine"]
   },
   {
@@ -59,7 +59,7 @@ const publications = [
     pages: "370-377",
     doi: "10.1002/ksa.70145",
     type: "journal",
-    tags: ["LLMs"],
+    tags: ["LLM"],
     domain: ["Medicine"]
   },
   {
@@ -83,7 +83,7 @@ const publications = [
     pages: "398-401",
     doi: "10.1002/ksa.70126",
     type: "journal",
-    tags: ["LLMs"],
+    tags: ["LLM"],
     domain: ["Medicine"]
   },
   {
@@ -107,10 +107,23 @@ const publications = [
     pages: "104388",
     doi: "10.1016/j.knee.2026.104388",
     type: "journal",
-    tags: ["LLMs"],
+    tags: ["LLM"],
     domain: ["Medicine"]
   },
   // --- Conferences ---
+  {
+    year: 2026,
+    title: "From Hallucination to Grounding: Diagnosing Visual Spatial Intelligence via CRISP",
+    authors: "Zhixing Li, Yinan Yu",
+    venue: "The 19th European Conference on Computer Vision (ECCV 2026)",
+    volume: null,
+    pages: null,
+    doi: null,
+    url: "https://arxiv.org/abs/2606.26535",
+    type: "conference",
+    tags: ["VLM", "Multimodal Learning", "Computer Vision"],
+    domain: []
+  },
   {
     year: 2026,
     title: "Latent Domain Prompt Learning for Vision-Language Models",
@@ -121,7 +134,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2511.00067",
     type: "conference",
-    tags: ["Multimodal Learning", "Computer Vision", "Situation Awareness"],
+    tags: ["VLM", "Multimodal Learning", "Computer Vision", "Situation Awareness"],
     domain: []
   },
   {
@@ -134,7 +147,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2603.21440",
     type: "conference",
-    tags: ["LLMs", "NLP", "Knowledge Graphs"],
+    tags: ["LLM", "NLP", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -147,7 +160,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2603.21430",
     type: "conference",
-    tags: ["LLMs", "Software Engineering", "Knowledge Graphs"],
+    tags: ["LLM", "Software Engineering", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -160,7 +173,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2603.21439",
     type: "conference",
-    tags: ["LLMs", "Software Engineering"],
+    tags: ["LLM", "Software Engineering"],
     domain: ["Automotive"]
   },
   // --- Preprints ---
@@ -173,7 +186,7 @@ const publications = [
     pages: null,
     doi: "10.48550/arXiv.2604.12503",
     type: "preprint",
-    tags: ["NLP", "LLMs", "Knowledge Graphs"],
+    tags: ["NLP", "LLM", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -185,7 +198,7 @@ const publications = [
     pages: null,
     doi: "10.48550/arXiv.2604.12487",
     type: "preprint",
-    tags: ["NLP", "LLMs", "Knowledge Graphs"],
+    tags: ["NLP", "LLM", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -198,7 +211,7 @@ const publications = [
     doi: "10.1016/j.jss.2026.112961",
     url: "https://www.sciencedirect.com/science/article/pii/S0164121226001949",
     type: "journal",
-    tags: ["LLMs", "Software Engineering"],
+    tags: ["LLM", "Software Engineering"],
     domain: ["Automotive"]
   },
 
@@ -213,7 +226,7 @@ const publications = [
     pages: "4475-4483",
     doi: "10.1002/ksa.70109",
     type: "journal",
-    tags: ["LLMs"],
+    tags: ["LLM"],
     domain: ["Medicine"]
   },
   {
@@ -323,7 +336,7 @@ const publications = [
     pages: "373-384",
     doi: "10.1109/ICSE55347.2025.00211",
     type: "conference",
-    tags: ["LLMs", "Software Engineering"],
+    tags: ["LLM", "Software Engineering"],
     domain: ["Automotive"]
   },
   {
@@ -336,7 +349,7 @@ const publications = [
     doi: "10.18653/v1/2025.acl-long.760",
     url: "https://aclanthology.org/2025.acl-long.760/",
     type: "conference",
-    tags: ["NLP", "LLMs", "Knowledge Graphs"],
+    tags: ["NLP", "LLM", "Knowledge Graphs"],
     domain: []
   },
   {
@@ -349,7 +362,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2507.17722",
     type: "conference",
-    tags: ["Multimodal Learning", "Situation Awareness"],
+    tags: ["VLM", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -362,7 +375,7 @@ const publications = [
     doi: "10.48550/arXiv.2603.28555",
     url: "https://openreview.net/forum?id=SODTFGcNfp",
     type: "conference",
-    tags: ["Multimodal Learning", "Computer Vision"],
+    tags: ["VLM", "Multimodal Learning", "Computer Vision"],
     domain: []
   },
   // --- Preprints ---
@@ -375,7 +388,7 @@ const publications = [
     pages: null,
     doi: "10.48550/arXiv.2511.15357",
     type: "preprint",
-    tags: ["ML/DL", "LLMs"],
+    tags: ["ML/DL", "LLM"],
     domain: ["Medicine"]
   },
   {
@@ -463,7 +476,7 @@ const publications = [
     pages: "30-45",
     doi: "10.1007/978-3-031-80889-0_3",
     type: "conference",
-    tags: ["LLMs", "Software Engineering"],
+    tags: ["LLM", "Software Engineering"],
     domain: ["Automotive"]
   },
   {
@@ -475,7 +488,7 @@ const publications = [
     pages: "114-130",
     doi: "10.1007/978-3-031-80889-0_8",
     type: "conference",
-    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
+    tags: ["LLM", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -512,7 +525,7 @@ const publications = [
     pages: "431-438",
     doi: "10.1109/ITSC58415.2024.10920027",
     type: "conference",
-    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
+    tags: ["LLM", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
   {
@@ -525,7 +538,7 @@ const publications = [
     doi: null,
     url: "https://arxiv.org/abs/2408.10794",
     type: "conference",
-    tags: ["LLMs", "Multimodal Learning", "Situation Awareness"],
+    tags: ["LLM", "Multimodal Learning", "Situation Awareness"],
     domain: ["Automotive"]
   },
 
